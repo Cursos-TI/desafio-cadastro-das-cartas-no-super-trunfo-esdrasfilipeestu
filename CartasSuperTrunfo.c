@@ -113,47 +113,13 @@ int main()
     printf("Densidade Populacional: %f \n", densidadePopulacional2);
     printf("PIB per Capita: %f \n", pibPerCapitaCidade2);
 
-    if (populacaoCidade1 > populacaoCidade2) {
-        printf("População: Carta 1 venceu (1) \n");
-    } else {
-        printf("População: Carta 2 venceu (2) \n");
-    }
-
-    if (areaCidade1 > areaCidade2) {
-        printf("Área: Carta 1 venceu (1) \n");
-    } else {
-        printf("Área: Carta 2 venceu (2) \n");
-    }
-
-    if (pibCidade1 > pibCidade2) {
-        printf("PIB: Carta 1 venceu (1) \n");
-    } else {
-        printf("PIB: Carta 2 venceu (2) \n");
-    }
-
-    if (pontosTuristicosCidade1 > pontosTuristicosCidade2) {
-        printf("Pontos Turísticos: Carta 1 venceu (1) \n");
-    } else {
-        printf("Pontos Turísticos: Carta 2 venceu (2) \n");
-    }
-
-    if (densidadePopulacional1 < densidadePopulacional2) {
-        printf("Densidade Populacional: Carta 1 venceu (1) \n");
-    } else {
-        printf("Densidade Populacional: Carta 2 venceu (2) \n");
-    }
-
-    if (pibPerCapitaCidade1 > pibPerCapitaCidade2) {
-        printf("PIB per Capita: Carta 1 venceu (1) \n");
-    } else {
-        printf("PIB per Capita: Carta 2 venceu (2) \n");
-    }
-
-    if (superPoder1 > superPoder2) {
-        printf("Super Poder: Carta 1 venceu (1) \n");
-    } else {
-        printf("Super Poder: Carta 2 venceu (2) \n");
-    }
+    printf("População: Carta 1 venceu (%d) \n", populacaoCidade1 > populacaoCidade2);
+    printf("Área: Carta 1 venceu (%d) \n", areaCidade1 > areaCidade2);
+    printf("PIB: Carta 1 venceu (%d) \n", pibCidade1 > pibCidade2);
+    printf("Pontos Turísticos: Carta 1 venceu (%d) \n", pontosTuristicosCidade1 > pontosTuristicosCidade2);
+    printf("Densidade Populacional: Carta 1 venceu (%d) \n", densidadePopulacional1 < densidadePopulacional2);
+    printf("PIB per Capita: Carta 1 venceu (%d) \n", pibPerCapitaCidade1 > pibPerCapitaCidade2);
+    printf("Super Poder: Carta 1 venceu (%d) \n", superPoder1 > superPoder2);
 
     return 0;
 }
